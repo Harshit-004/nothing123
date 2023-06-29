@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #e67605;
+
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px ;
+            text-decoration: none;
+            font-size: 17px;
+            margin: 3px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+            cursor: pointer;
+        }
+
+        .topnav a.active {
+
+            color: white;
+        }
+        .main{
+            align-items: center;
+            float: left;
+            height: 50px;
+        }
+        .intro{
+            padding: 190px;
+
+            height: 25px;
+            width: 250px;
+            float: left;
+        }
+        .gd{
+            color: red;
+            margin: 4px;
+            border: 3px solid black;
+
+        }
+        .submit{
+            height: 40px;
+            width: 80px;
+
+            border-radius: 33px;
+            background-color: #e67605;
+        }
+    </style>
+</head>
+<body>
+
+<div class="topnav">
+    <a class="active" href="index.html">RTU Home</a>
+    <a href="https://www.rtu.ac.in/index/administration.php">Administration</a>
+    <a href="https://rtu.ac.in/index/view_menudata.php?page=Home-Page63">Academics</a>
+    <a href="https://rtu.ac.in/index/view_menudata.php?page=Examinations64">Examination</a>
+    <a href="https://rtu.ac.in/index/view_menudata.php?page=PhD-Home31">Research </a>
+    <a href="https://rtu.ac.in/index/view_menudata.php?page=RTU68">RTU</a>
+    <a href="https://rtu.ac.in/index/viewdata.php?page=NIRF-DATA443">NIRF DATA</a>
+</div>
+
+
+
+
+<div class="intro">
+    FULL NAME    <input type="text" class="gd" >*<br>
+    ROLL  NO.       <input type="text" class="gd">*<br>
+    MOBILE NO.   <input type="number" class="gd">*<br>
+    YOUR BRANCH <select class="gd">
+
+                      <option>CSE</option>
+                      <option>AI-DS</option>
+                      <option>IT</option></select>*<br><br>
+                  <a href="result.html"><INPUT type="SUBMIT"  value="submit" class="submit" placeholder="SUBMIT"></a>
+
+</div>
+
+</body>
+</html>
